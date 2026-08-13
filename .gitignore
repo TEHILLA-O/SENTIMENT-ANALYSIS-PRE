@@ -1,0 +1,15 @@
+# Dataset (~230 MB extracted) - recreate with: python src/download_data.py
+data/
+
+# Trained models (~31 MB each) - recreate with: python src/train.py
+models/*.keras
+
+# Full misclassified-review dumps (~5.7 MB each) - recreate with: python src/evaluate.py
+# The summarised findings in reports/error_analysis_*.md are committed instead.
+reports/misclassified_reviews_*.csv
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/

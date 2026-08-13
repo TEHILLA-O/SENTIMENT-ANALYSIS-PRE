@@ -1,0 +1,36 @@
+{
+  "model": "bilstm",
+  "test_loss": 0.33178094029426575,
+  "test_accuracy": 0.85248,
+  "precision": 0.8922720797720798,
+  "recall": 0.80176,
+  "f1": 0.8445980111242205,
+  "roc_auc": 0.9360049856,
+  "n_test": 25000,
+  "tuned_threshold": 0.35999999999999993,
+  "tuned_val_f1": 0.8757967935097547,
+  "tuned_test_accuracy": 0.85936,
+  "tuned_precision": 0.8508278662917839,
+  "tuned_recall": 0.87152,
+  "tuned_f1": 0.8610496364211192,
+  "confusion_matrix": [
+    [
+      11290,
+      1210
+    ],
+    [
+      2478,
+      10022
+    ]
+  ],
+  "tuned_confusion_matrix": [
+    [
+      10590,
+      1910
+    ],
+    [
+      1606,
+      10894
+    ]
+  ]
+}

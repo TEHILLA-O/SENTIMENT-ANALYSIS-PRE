@@ -1,0 +1,10 @@
+# Versions this project was developed and tested against (Python 3.12, CPU).
+tensorflow==2.21.0
+keras==3.15.1
+numpy==2.5.1
+pandas==3.0.5
+matplotlib==3.11.1
+scikit-learn==1.9.0
+
+# Only needed to run notebooks/analysis.ipynb
+ipykernel==7.3.0
