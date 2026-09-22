@@ -3,6 +3,8 @@
 A TensorFlow binary text classifier that reads an IMDB movie review and predicts whether the
 sentiment is positive or negative — built as an end-to-end pipeline rather than a single script,
 so every stage (exploration, cleaning, vectorization, training, evaluation, error analysis) can be
+See [FAILURES.md](./FAILURES.md) for what can go wrong, what broke, how it was fixed, and results.
+
 inspected and explained on its own.
 
 Dataset: [Large Movie Review Dataset](https://ai.stanford.edu/~amaas/data/sentiment/) (aclImdb),
